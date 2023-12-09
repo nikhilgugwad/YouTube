@@ -8,7 +8,7 @@ The Youtube Clone project, implemented during the Namaste React course taught by
 
 1. **Hamburger Menu**
 
-   - [Provide details about the Hamburger Menu feature]
+   - implemented a hamburger menu with a home icon, providing a seamless navigation experience. Clicking the home icon redirects users to the home page without triggering a full page reload, enhancing the overall responsiveness and user interface of the project
 
 2. **Search Box**
 
@@ -18,7 +18,8 @@ The Youtube Clone project, implemented during the Namaste React course taught by
 
 3. **Video Cards**
 
-   - [Provide details about the Video Cards feature]
+   - Utilizes a live API from YouTube for real-time data for thumbnails, description, viewcount etc.
+   - incorporated the YouTube embed functionality to seamlessly integrate and display videos within the project interface upon clicking on any video cards
 
 4. **Comments Section**
 
@@ -60,7 +61,7 @@ The Youtube Clone project, implemented during the Namaste React course taught by
 
 ### Bundler
 
-[Specify your bundler (e.g., Webpack) here]
+- **Parcel**: Parcel is a blazing-fast, zero-configuration web application bundler that simplifies the process of building modern web applications by automatically handling tasks such as code bundling, minification, and asset optimization.
 
 ## Chat Feature Implementation
 
