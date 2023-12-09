@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Youtube Clone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+The Youtube Clone project, implemented during the Namaste React course taught by Akshay Saini, serves as a demonstration on how to tackle machine coding rounds during interviews. This proposal outlines additional features, technology stack updates, challenges, and justifications.
 
-In the project directory, you can run:
+## Additional Features
 
-### `npm start`
+1. **Hamburger Menu**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   - [Provide details about the Hamburger Menu feature]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Search Box**
 
-### `npm test`
+   - Utilizes a live API from YouTube for real-time search results.
+   - Implements debouncing to optimize search requests.
+   - Includes caching mechanisms for improved performance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Video Cards**
 
-### `npm run build`
+   - [Provide details about the Video Cards feature]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Comments Section**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - Implements a comments section with hard-coded comments due to YouTube API limitations on nested comments.
+   - Utilizes the concept of recursion to display nested comments.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Live Chat**
+   - Implements a real-time live chat feature.
+   - Challenges addressed in the "Challenges" section below.
 
-### `npm run eject`
+## Challenges
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Data Layer
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Getting Live Data**
+  - Explore options for handling live or near real-time data.
+  - Consider using:
+    - Web Sockets for applications like trading platforms (e.g., Zerodha, Binance, WhatsApp).
+    - API Polling for applications like Gmail, Cricbuzz.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### UI Layer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Updating the UI**
+  - Address challenges related to displaying live or near real-time data in the user interface.
+  - Discuss potential solutions such as efficient rendering mechanisms.
 
-## Learn More
+## Technology Stack Updates
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React.js**: A declarative, efficient, and flexible JavaScript library for building user interfaces.
+- **Redux**: A predictable state container for managing the application's state.
+- **React-router-dom**: A standard library for routing in React.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 
-### Code Splitting
+### Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Jest**: A JavaScript testing framework for unit and integration testing.
 
-### Analyzing the Bundle Size
+### Bundler
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Specify your bundler (e.g., Webpack) here]
 
-### Making a Progressive Web App
+## Chat Feature Implementation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Utilizes **Redux store** for managing live chat data.
+  - Creates a `chatSlice.js` to handle chat-related state and logic.
+  - Adds `chatSlice` to the Redux store (e.g., `store.js`).
+  - Enables the sending of custom messages within the live chat.
 
-### Advanced Configuration
+## Planning
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Project Overview
 
-### Deployment
+![Project Overview](../namaste-youtube/src/images/planning.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Estimated Time
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I anticipate spending approximately 5 minutes discussing the outlined features, technology stack updates, challenges, and justifications with the interviewer.
