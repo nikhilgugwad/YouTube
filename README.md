@@ -73,7 +73,7 @@ The Youtube Clone project, implemented during the Namaste React course taught by
 
 ### Project Overview
 
-![Project Overview](../namaste-youtube/src/images/planning.png)
+![Project Overview](../src/images/planning.png)
 
 ## Estimated Time
 
