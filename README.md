@@ -1,5 +1,3 @@
-# Youtube Clone Project
-
 ## Introduction
 
 The Youtube Clone project, implemented during the Namaste React course taught by Akshay Saini, serves as a demonstration on how to tackle machine coding rounds during interviews. This proposal outlines additional features, technology stack updates, challenges, and justifications.
